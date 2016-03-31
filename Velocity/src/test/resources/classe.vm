@@ -1,0 +1,10 @@
+package br.com.velocity;
+
+public class $name {
+
+#foreach( $attr in $attrList )
+    private $attr.type $attr.name; 
+ #end
+  
+ 
+}
